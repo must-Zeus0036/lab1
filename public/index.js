@@ -1,9 +1,10 @@
 let recipes = [];
 
+// Function to load recipe data from the server
 async function loadData() {
     const url = "http://localhost:5000/api/dishes";
     try {
-        const response = await fetch(url);
+        const response = await fetch(url); // Fetch data from the server
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -185,6 +186,7 @@ async function addNewRecipe() {
     }
 }
 
+// Function to display the list of recipes
 function renderRecipes() {
     const container = document.getElementById('recipe-container');
     container.innerHTML = '';
@@ -196,6 +198,8 @@ function renderRecipes() {
     addDishButton.addEventListener('click', showAddForm);
     container.appendChild(addDishButton);
 
+
+    // Display message if there are no recipes
     if (recipes.length === 0) {
         const noRecipesMessage = document.createElement('p');
         noRecipesMessage.className = 'no-recipes';
@@ -204,7 +208,7 @@ function renderRecipes() {
         return;
     }
 
-    // Create table
+    // Create table to display recipes
     const table = document.createElement('table');
 
     // Create header
