@@ -1,5 +1,3 @@
-# lab1
-Fullstack-lab1 :robot:
 Full-Stack Web Development Project Report: 
 Connecting Express.js, HTML/CSS, and MongoDB
 Introduction
