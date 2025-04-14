@@ -21,7 +21,7 @@ app.use(cors());
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.static('public'));
-app.use('/api/', dishRoutes);
+app.use('/api', dishRoutes);
 
 connectDB(process.env.CONNECTION_URL);
 // Default route

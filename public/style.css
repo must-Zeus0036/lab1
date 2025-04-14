@@ -2,13 +2,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #d89e08; /* Change background to black */
+    color: black;
 }
 
 /* Headings */
 h1, h2 {
-    color: #2c3e50;
+    color: #ffffff; /* Changed heading color to white */
 }
 
 /* Table Styling */
@@ -54,39 +54,51 @@ form input {
 
 form button {
     padding: 10px 20px;
-    background-color: #27ae60;
-    color: white;
+    background-color: #ffffff; /* Changed button color */
+    color: #000000; /* Changed button text color */
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    box-shadow: 0 4px 12px 0px rgba(255, 255, 0, 0.5); /* Added shadow */
+    transition: all 0.3s ease; /* Added transition for smooth effect */
 }
 
 form button:hover {
-    background-color: #219150;
+    background-color: #ffffff; /* Changed button color on hover*/
+    transform: translateY(-2px); /* Added slight move up on hover */
+    box-shadow: 0 6px 18px 0px rgba(255, 255, 0, 0.7); /* Increased shadow on hover */
 }
 
 /* Button Styling */
 button {
     padding: 6px 12px;
-    background-color: #2980b9;
-    color: white;
+    background-color: #ffffff; /* Changed button color */
+    color: #000000; /* Changed button text color */
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    box-shadow: 0 4px 12px 0px rgba(255, 255, 0, 0.5); /* Added shadow */
+    transition: all 0.3s ease; /* Added transition for smooth effect */
 }
 
 button:hover {
-    background-color: #1c5980;
+    background-color: #ffffff; /* Changed button color on hover */
+    transform: translateY(-2px); /* Added slight move up on hover */
+    box-shadow: 0 6px 18px 0px rgba(255, 255, 0, 0.7); /* Increased shadow on hover */
 }
 
 .delete-button {
     background-color: #e74c3c !important;
+    color: #ffffff !important;
     padding: 6px 12px !important;
     font-size: 14px !important;
+     box-shadow: 0 4px 12px 0px rgba(255, 255, 0, 0.5); /* Added shadow */
 }
 
 .delete-button:hover {
     background-color: #c0392b !important;
+     transform: translateY(-2px); /* Added slight move up on hover */
+     box-shadow: 0 6px 18px 0px rgba(255, 255, 0, 0.7); /* Increased shadow on hover */
 }
 
 /* Messages */
@@ -158,31 +170,46 @@ td:last-child {
 /* Buttons */
 .edit-button {
     background-color: #f39c12 !important;
+    color: #000000 !important;
     padding: 6px 12px !important;
     font-size: 14px !important;
     margin-right: 5px;
+    box-shadow: 0 4px 12px 0px rgba(255, 255, 0, 0.5); /* Added shadow */
+    transition: all 0.3s ease; /* Added transition for smooth effect */
 }
 
 .edit-button:hover {
     background-color: #d35400 !important;
+     transform: translateY(-2px); /* Added slight move up on hover */
+     box-shadow: 0 6px 18px 0px rgba(255, 255, 0, 0.7); /* Increased shadow on hover */
 }
 
 .save-button {
     background-color: #27ae60 !important;
+    color: #ffffff !important;
     padding: 10px 20px !important;
+     box-shadow: 0 4px 12px 0px rgba(255, 255, 0, 0.5); /* Added shadow */
+     transition: all 0.3s ease; /* Added transition for smooth effect */
 }
 
 .save-button:hover {
     background-color: #219150 !important;
+     transform: translateY(-2px); /* Added slight move up on hover */
+     box-shadow: 0 6px 18px 0px rgba(255, 255, 0, 0.7); /* Increased shadow on hover */
 }
 
 .cancel-button {
     background-color: #95a5a6 !important;
+    color: #ffffff !important;
     padding: 10px 20px !important;
+     box-shadow: 0 4px 12px 0px rgba(255, 255, 0, 0.5); /* Added shadow */
+     transition: all 0.3s ease; /* Added transition for smooth effect */
 }
 
 .cancel-button:hover {
     background-color: #7f8c8d !important;
+     transform: translateY(-2px); /* Added slight move up on hover */
+     box-shadow: 0 6px 18px 0px rgba(255, 255, 0, 0.7); /* Increased shadow on hover */
 }
 
 /* Actions Cell */
@@ -242,6 +269,16 @@ footer #year {
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
+    transition: all 0.3s ease; /* Added transition for smooth effect */
+    background-color: #ffffff; /* Changed button color */
+    color: #000000; /* Changed button text color */
+     box-shadow: 0 4px 12px 0px rgba(255, 255, 0, 0.5); /* Added shadow */
+}
+
+.recipe-actions button:hover {
+    opacity: 0.8;
+     transform: translateY(-2px); /* Added slight move up on hover */
+     box-shadow: 0 6px 18px 0px rgba(255, 255, 0, 0.7); /* Increased shadow on hover */
 }
 
 .back-button {
@@ -251,14 +288,10 @@ footer #year {
 
 .edit-button {
     background-color: #ffc107;
-    color: #212529;
+    color: #000000;
 }
 
 .delete-button {
     background-color: #dc3545;
     color: white;
-}
-
-.recipe-actions button:hover {
-    opacity: 0.8;
 }

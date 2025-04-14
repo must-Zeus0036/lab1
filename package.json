@@ -9,7 +9,7 @@
     "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mustafa Al-Bayati",
   "license": "ISC",
   "description": "",
   "dependencies": {
